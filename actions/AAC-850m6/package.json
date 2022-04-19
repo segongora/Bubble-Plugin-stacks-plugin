@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+        "@stacks/auth": "latest",
+        "@stacks/connect": "latest",
+        "regenerator-runtime": "latest",
+        "@loadable/component": "latest",
+        "@stacks/wallet-sdk": "latest",
+        "@stacks/transactions": "latest",
+        "@stacks/common": "latest",
+        "react": "latest"
+    }
+}

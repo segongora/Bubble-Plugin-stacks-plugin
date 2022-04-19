@@ -1,0 +1,12 @@
+{
+    "assets": {
+        "AAn": {
+            "name": "icon.png",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1648658815588x592270379891813400/datamatic%202.png"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 2,
+        "use_jquery": true
+    }
+}

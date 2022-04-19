@@ -1,0 +1,10 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "stacks",
+    "icon": "ion-social-bitcoin-outline"
+}

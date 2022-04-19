@@ -1,0 +1,65 @@
+{
+    "category": "plugins",
+    "display": "smart-contract-function-call",
+    "fields": {
+        "ABW": {
+            "caption": "secret_key",
+            "editor": "DynamicValue",
+            "name": "secret_key_input",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABX": {
+            "caption": "password",
+            "editor": "DynamicValue",
+            "name": "password_input",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABY": {
+            "caption": "post_condition_address",
+            "editor": "DynamicValue",
+            "name": "post_condition_address",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABZ": {
+            "caption": "ammount",
+            "editor": "DynamicValue",
+            "name": "ammount",
+            "rank": 3,
+            "value": "number"
+        },
+        "ABb": {
+            "caption": "contract_address",
+            "editor": "DynamicValue",
+            "name": "contract_address",
+            "rank": 4,
+            "value": "text"
+        },
+        "ABc": {
+            "caption": "contract_name",
+            "editor": "DynamicValue",
+            "name": "contract_name",
+            "rank": 5,
+            "value": "text"
+        },
+        "ABd": {
+            "caption": "function_name",
+            "editor": "DynamicValue",
+            "name": "function_name",
+            "rank": 6,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "ABa": {
+            "caption": "broadcast_response",
+            "name": "broadcast_response",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

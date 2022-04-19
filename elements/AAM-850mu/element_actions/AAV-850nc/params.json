@@ -1,0 +1,12 @@
+{
+    "caption": "open_authenticator",
+    "fields": {
+        "AAY": {
+            "caption": "some_key",
+            "editor": "DynamicValue",
+            "name": "some_key",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "category": "plugins",
+    "display": "signup-wallet",
+    "fields": {
+        "AAw": {
+            "caption": "Password Input Signup",
+            "editor": "DynamicValue",
+            "name": "password_input_signup",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAx": {
+            "caption": "Secret Key",
+            "name": "secret_key",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAy": {
+            "caption": "Wallet Root Key",
+            "name": "wallet_root_key",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAz": {
+            "caption": "Account",
+            "name": "account",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABB": {
+            "caption": "Accounts List",
+            "is_list": true,
+            "name": "accounts_list",
+            "rank": 3,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

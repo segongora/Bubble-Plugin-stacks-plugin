@@ -1,0 +1,37 @@
+{
+    "category": "plugins",
+    "display": "generate_account_into_wallet",
+    "fields": {
+        "ABD": {
+            "caption": "password",
+            "editor": "DynamicValue",
+            "name": "password_input",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABE": {
+            "caption": "secret_key",
+            "editor": "DynamicValue",
+            "name": "secret_key_input",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "ABF": {
+            "caption": "Account",
+            "name": "account",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABG": {
+            "caption": "Accounts List",
+            "is_list": true,
+            "name": "accounts_list",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

@@ -1,0 +1,51 @@
+{
+    "category": "plugins",
+    "display": "transaction",
+    "fields": {
+        "ABK": {
+            "caption": "password",
+            "editor": "DynamicValue",
+            "name": "password_input",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABL": {
+            "caption": "secret_key",
+            "editor": "DynamicValue",
+            "name": "secret_key_input",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABM": {
+            "caption": "recipient",
+            "editor": "DynamicValue",
+            "name": "recipient",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABN": {
+            "caption": "amount",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 3,
+            "value": "number"
+        },
+        "ABO": {
+            "caption": "memo",
+            "editor": "DynamicValue",
+            "name": "memo",
+            "rank": 4,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAh": {
+            "caption": "broadcastResponse",
+            "name": "broadcast_response",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

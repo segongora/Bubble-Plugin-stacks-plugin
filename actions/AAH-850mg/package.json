@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "@stacks/wallet-sdk": "latest",
+         "@stacks/transactions": "latest"
+    }
+}

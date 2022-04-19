@@ -1,0 +1,42 @@
+{
+    "category": "payment",
+    "display": "auth",
+    "fields": {
+        "ABI": {
+            "caption": "password",
+            "editor": "DynamicValue",
+            "name": "password_input",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABJ": {
+            "caption": "secret_key",
+            "editor": "DynamicValue",
+            "name": "secret_key_input",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAD": {
+            "caption": "Transit Key",
+            "name": "transit_key",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Auth Request",
+            "name": "auth_request",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABH": {
+            "caption": "Auth Response",
+            "name": "auth_response",
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
